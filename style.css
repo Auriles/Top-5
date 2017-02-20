@@ -19,6 +19,7 @@ header {
 header h1 {
   font-size: 40px;
   text-align: center;
+  font-family: "Limelight", sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px #000;
@@ -34,10 +35,16 @@ header h1 {
 }
 
 #main-menu ul li {
-
+  float: left;
+  width: 140px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
 }
 
 .bw {
+  position: absolute;
+  left: 0px;
   width: 140px;
   height: 500px;
   cursor: pointer;
@@ -46,6 +53,8 @@ header h1 {
 }
 
 .color {
+  position: absolute;
+  left: 140px;
   width: 140px;
   height: 500px;
   cursor: pointer;
@@ -69,6 +78,8 @@ header h1 {
 }
 
 .description {
+  position: absolute;
+  left: 140px;
   width: 240px;
   height: 460px;
   padding: 20px;
@@ -79,6 +90,7 @@ header h1 {
   padding-top: 20px;
   font-size: 30px;
   text-align: center;
+  font-family: "Limelight", sans-serif;
   color: #333;
   text-transform: uppercase;
 }
@@ -90,6 +102,7 @@ header h1 {
   background: #d70000;
   color: #fff;
   text-align: center;
+  font-family: "Lobster", sans-serif;
   text-shadow: 1px 1px 1px #000;
   border-radius: 5px;
 }
@@ -99,4 +112,5 @@ header h1 {
   font-size: 22px;
   color: #000;
   text-align: center;
+  font-family: "Lobster", sans-serif;
 }

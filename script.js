@@ -2,9 +2,16 @@ $(document).ready(function(){
 
 var $mainMenuItems = $("#main-menu ul").children("li");
 var totalMainMenuItems = $mainMenuItems.length;
-var openedIndex = -1;
+var openedIndex = 2;
 
 var init = function () {
+  bindEvents();
+  if(validIndex(openedIndex)) {
+    animateItem($mainMenuItems.eq(openedIndex), true, 700);
+  }
+};
+
+var bindEvents = function() {
   $mainMenuItems.children(".images").click(function()  {
 
     var newIndex = $(this).parent().index();

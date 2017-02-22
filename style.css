@@ -29,7 +29,7 @@ header h1 {
 
 #main-menu ul {
   width: 980px;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
   padding-top: 148px;
 }
@@ -150,7 +150,7 @@ header h1 {
   opacity: 0.9;
 }
 
-.button:hover {
+.hovered {
   background: #b70000;
   border: 2px solid #333;
   font-size: 24px;

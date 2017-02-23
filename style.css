@@ -115,6 +115,19 @@ header h1 {
   font-family: "Lobster", sans-serif;
 }
 
+.description a {
+  padding-top: 35px;
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  text-decoration: none;
+}
+
+.description a:hover {
+  color: #d70000;
+}
+
 /* Buttons-menu */
 
 #buttons-menu {
